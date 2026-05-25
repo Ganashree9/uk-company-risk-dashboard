@@ -1,0 +1,16 @@
+company_number,company_name,company_status,company_type,incorporation_date,sic_code,region,accounts_overdue,confirmation_statement_overdue
+000001,Alpha Finance Ltd,active,ltd,2015-04-12,64999,London,false,false
+000002,Bright Retail Ltd,active,ltd,2020-09-20,47190,Manchester,false,true
+000003,Core Analytics Ltd,active,ltd,2018-01-15,62020,London,false,false
+000004,Delta Trading Ltd,dissolved,ltd,2012-06-01,46900,Birmingham,true,true
+000005,Evergreen Care Ltd,active,ltd,2019-11-08,86900,Leeds,false,false
+000006,Falcon Property Ltd,active,ltd,2010-03-25,68100,London,true,false
+000007,Green Logistics Ltd,dissolved,ltd,2016-07-19,49410,Bristol,true,true
+000008,Horizon Tech Ltd,active,ltd,2021-02-14,62012,Cambridge,false,false
+000009,Impact Services Ltd,inactive,ltd,2014-12-03,82990,Liverpool,true,true
+000010,Jupiter Foods Ltd,active,ltd,2022-05-30,56101,Birmingham,false,false
+000011,Kingsway Consulting Ltd,active,ltd,2017-10-11,70229,London,false,false
+000012,Lunar Media Ltd,inactive,ltd,2013-08-22,73110,Manchester,true,false
+000013,Metro Construction Ltd,active,ltd,2009-01-17,41201,Leeds,false,true
+000014,Nova Education Ltd,active,ltd,2023-03-05,85600,London,false,false
+000015,Orion Manufacturing Ltd,dissolved,ltd,2008-09-09,25990,Sheffield,true,true
