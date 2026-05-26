@@ -1,0 +1,16 @@
+company_number,company_name,company_status,company_type,incorporation_date,sic_code,region,accounts_overdue,confirmation_statement_overdue,company_age_years,risk_category,is_high_risk
+1,Alpha Finance Ltd,active,ltd,2015-04-12,64999,London,False,False,11.1,Low Risk,False
+2,Bright Retail Ltd,active,ltd,2020-09-20,47190,Manchester,False,True,5.7,Medium Risk,False
+3,Core Analytics Ltd,active,ltd,2018-01-15,62020,London,False,False,8.4,Low Risk,False
+4,Delta Trading Ltd,dissolved,ltd,2012-06-01,46900,Birmingham,True,True,14.0,High Risk,True
+5,Evergreen Care Ltd,active,ltd,2019-11-08,86900,Leeds,False,False,6.5,Low Risk,False
+6,Falcon Property Ltd,active,ltd,2010-03-25,68100,London,True,False,16.2,Medium Risk,False
+7,Green Logistics Ltd,dissolved,ltd,2016-07-19,49410,Bristol,True,True,9.9,High Risk,True
+8,Horizon Tech Ltd,active,ltd,2021-02-14,62012,Cambridge,False,False,5.3,Low Risk,False
+9,Impact Services Ltd,inactive,ltd,2014-12-03,82990,Liverpool,True,True,11.5,High Risk,True
+10,Jupiter Foods Ltd,active,ltd,2022-05-30,56101,Birmingham,False,False,4.0,Low Risk,False
+11,Kingsway Consulting Ltd,active,ltd,2017-10-11,70229,London,False,False,8.6,Low Risk,False
+12,Lunar Media Ltd,inactive,ltd,2013-08-22,73110,Manchester,True,False,12.8,High Risk,True
+13,Metro Construction Ltd,active,ltd,2009-01-17,41201,Leeds,False,True,17.4,Medium Risk,False
+14,Nova Education Ltd,active,ltd,2023-03-05,85600,London,False,False,3.2,Low Risk,False
+15,Orion Manufacturing Ltd,dissolved,ltd,2008-09-09,25990,Sheffield,True,True,17.7,High Risk,True
