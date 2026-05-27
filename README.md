@@ -60,73 +60,77 @@ Companies were classified as **High Risk** if:
 Companies with fewer warning signs were classified as Medium Risk or Low Risk.
 
 ## Repository Structure
-
-```text
 data/
-  sample_companies.csv
-  cleaned_companies.csv
+- sample_companies.csv
+- cleaned_companies.csv
 
 notebooks/
-  01_company_risk_analysis.py
-  02_sql_analysis.py
+- 01_company_risk_analysis.py
+- 02_sql_analysis.py
 
 sql/
-  business_questions.sql
+- business_questions.sql
 
 reports/
-  initial_findings.md
-  sql_results.md
-  business_summary.md
-  project_plan.md
+- initial_findings.md
+- sql_results.md
+- business_summary.md
+- project_plan.md
 
 dashboard/
-  uk_company_risk_dashboard.pbix
-  dashboard_plan.md
+- uk_company_risk_dashboard.pbix
+- dashboard_plan.md
 
 screenshots/
-  dashboard_overview.png
+- dashboard_overview.png
 
-How to Reproduce the Analysis
+## How to Reproduce the Analysis
 
 This project includes Python scripts that clean the raw dataset and generate SQL analysis results.
 
 To run the project locally:
 
-Install the required Python packages:
-pip install -r requirements.txt
-Run the data-cleaning script:
-python notebooks/01_company_risk_analysis.py
+1. Install the required Python packages:
+
+`pip install -r requirements.txt`
+
+2. Run the data-cleaning script:
+
+`python notebooks/01_company_risk_analysis.py`
 
 This creates the cleaned dataset:
 
-data/cleaned_companies.csv
-Run the SQL analysis script:
-python notebooks/02_sql_analysis.py
+`data/cleaned_companies.csv`
+
+3. Run the SQL analysis script:
+
+`python notebooks/02_sql_analysis.py`
 
 This creates the SQL results report:
 
-reports/sql_results.md
-Dashboard File
+`reports/sql_results.md`
+
+## Dashboard File
 
 The Power BI dashboard file is available here:
 
-dashboard/uk_company_risk_dashboard.pbix
-Skills Demonstrated
-Data cleaning
-Data transformation
-Risk classification
-SQL analysis
-KPI reporting
-Power BI dashboarding
-Business insight generation
-GitHub project documentation
-Future Improvements
-Replace the sample dataset with a larger Companies House dataset.
-Add sector-level risk analysis.
-Add region-level company risk trends.
-Add more dashboard pages for company age, SIC code and filing behaviour.
+`dashboard/uk_company_risk_dashboard.pbix`
 
-Commit message:
+## Skills Demonstrated
 
-```text
-Polish README for portfolio presentation
+- Data cleaning
+- Data transformation
+- Risk classification
+- SQL analysis
+- KPI reporting
+- Power BI dashboarding
+- Business insight generation
+- GitHub project documentation
+
+## Future Improvements
+
+- Replace the sample dataset with a larger Companies House dataset.
+- Add sector-level risk analysis.
+- Add region-level company risk trends.
+- Add more dashboard pages for company age, SIC code and filing behaviour.
+ 
