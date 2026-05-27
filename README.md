@@ -1,14 +1,16 @@
 # UK Company Risk Dashboard
 
-## Project Overview
-
-This project analyses UK company records to identify risk indicators, sector patterns and business-health signals using Python, SQL and Power BI.
-
-The goal is to demonstrate how public company data can be cleaned, transformed and visualised into a decision-ready dashboard for finance, banking, operations and risk teams.
+A data analyst portfolio project using **Python, SQL and Power BI** to analyse UK company records, identify risk indicators and present executive-level dashboard insights.
 
 ## Dashboard Preview
 
 ![UK Company Risk Dashboard](screenshots/dashboard_overview.png)
+
+## Project Overview
+
+This project analyses UK company records to identify risk indicators, company status patterns and business-health signals.
+
+The goal is to demonstrate how public company data can be cleaned, transformed and visualised into a decision-ready dashboard for finance, banking, operations and risk teams.
 
 ## Key Results
 
@@ -19,59 +21,67 @@ The goal is to demonstrate how public company data can be cleaned, transformed a
 
 ## Business Problem
 
-Finance and operations teams often need to quickly understand which companies may require closer review based on company status, filing behaviour, age, sector and other risk indicators.
+Finance and operations teams often need to quickly understand which companies may require closer review based on company status, filing behaviour, company age and other risk indicators.
 
 This project answers:
 
 - Which companies show higher-risk characteristics?
-- Which sectors have the highest concentration of inactive or dissolved companies?
-- How does company age relate to business status?
-- What indicators should be monitored by an analyst?
+- How many companies are active, dissolved or inactive?
+- Which companies should be prioritised for review?
+- What summary KPIs should appear in an executive dashboard?
 
 ## Tools Used
 
 - Python
-- pandas
+- Pandas
 - SQL
+- SQLite
 - Power BI
-- Excel
 - GitHub
 
-## Planned Workflow
+## Project Workflow
 
-1. Collect public UK company data
-2. Clean and standardise the dataset using Python
-3. Store transformed data in SQL-style tables
-4. Create risk indicators and summary metrics
-5. Build a Power BI dashboard
-6. Write business insights and recommendations
+1. Created a sample UK company dataset.
+2. Cleaned and transformed the data using Python.
+3. Created risk-category logic based on company status and overdue filing indicators.
+4. Exported a cleaned dataset for analysis.
+5. Ran SQL queries to generate business insights.
+6. Built a Power BI dashboard for executive reporting.
+7. Added dashboard screenshot and documentation to GitHub.
 
-## Dashboard Pages
+## Risk Logic
 
-1. Executive Summary
-2. Company Status Overview
-3. Sector Risk Analysis
-4. Company Age and Filing Behaviour
-5. Recommendations
+Companies were classified as **High Risk** if:
 
-## Skills Demonstrated
+- Company status was dissolved or inactive.
+- Accounts were overdue.
+- Confirmation statement was overdue.
 
-- Data cleaning
-- Data transformation
-- SQL analysis
-- Dashboard design
-- KPI reporting
-- Business insight generation
-- Risk analysis
-- Data storytelling
+Companies with fewer warning signs were classified as Medium Risk or Low Risk.
 
-## Final Output
+## Repository Structure
 
-The final project will include:
+```text
+data/
+  sample_companies.csv
+  cleaned_companies.csv
 
-- Cleaned dataset
-- Python cleaning notebook
-- SQL queries
-- Power BI dashboard screenshots
-- Business insight report
-- Recommendations for stakeholders
+notebooks/
+  01_company_risk_analysis.py
+  02_sql_analysis.py
+
+sql/
+  business_questions.sql
+
+reports/
+  initial_findings.md
+  sql_results.md
+  business_summary.md
+  project_plan.md
+
+dashboard/
+  uk_company_risk_dashboard.pbix
+  dashboard_plan.md
+
+screenshots/
+  dashboard_overview.png
