@@ -86,59 +86,47 @@ dashboard/
 screenshots/
   dashboard_overview.png
 
-## How to Reproduce the Analysis
+How to Reproduce the Analysis
 
 This project includes Python scripts that clean the raw dataset and generate SQL analysis results.
 
 To run the project locally:
 
-1. Install the required Python packages:
-
-```bash
+Install the required Python packages:
 pip install -r requirements.txt
-
-2. Run the data-cleaning script:
-
-```bash
+Run the data-cleaning script:
 python notebooks/01_company_risk_analysis.py
 
 This creates the cleaned dataset:
+
 data/cleaned_companies.csv
-
-3. Run the SQL analysis script:
-
-```bash
+Run the SQL analysis script:
 python notebooks/02_sql_analysis.py
 
 This creates the SQL results report:
-reports/sql_results.md
 
+reports/sql_results.md
 Dashboard File
 
 The Power BI dashboard file is available here:
+
 dashboard/uk_company_risk_dashboard.pbix
-
 Skills Demonstrated
-1. Data cleaning
-2. Data transformation
-3. Risk classification
-4. SQL analysis
-5. KPI reporting
-6. Power BI dashboarding
-7. Business insight generation
-8. GitHub project documentation
-
+Data cleaning
+Data transformation
+Risk classification
+SQL analysis
+KPI reporting
+Power BI dashboarding
+Business insight generation
+GitHub project documentation
 Future Improvements
-1. Replace the sample dataset with a larger Companies House dataset.
-2. Add sector-level risk analysis.
-3. Add region-level company risk trends.
-4. Add more dashboard pages for company age, SIC code and filing behaviour.
+Replace the sample dataset with a larger Companies House dataset.
+Add sector-level risk analysis.
+Add region-level company risk trends.
+Add more dashboard pages for company age, SIC code and filing behaviour.
 
-Also check that your **Dashboard Preview** section has this exact line:
+Commit message:
 
-```markdown
-![UK Company Risk Dashboard](screenshots/dashboard_overview.png)
-
-Then commit with:
-
+```text
 Polish README for portfolio presentation
