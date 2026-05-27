@@ -6,6 +6,17 @@ This project analyses UK company records to identify risk indicators, sector pat
 
 The goal is to demonstrate how public company data can be cleaned, transformed and visualised into a decision-ready dashboard for finance, banking, operations and risk teams.
 
+## Dashboard Preview
+
+![UK Company Risk Dashboard](screenshots/dashboard_overview.png)
+
+## Key Results
+
+- Analysed 15 UK company records.
+- Identified 10 active companies, 3 dissolved companies and 2 inactive companies.
+- Classified 5 companies as High Risk based on company status and overdue filing indicators.
+- Built a Power BI dashboard showing company status, risk category breakdown and high-risk company details.
+
 ## Business Problem
 
 Finance and operations teams often need to quickly understand which companies may require closer review based on company status, filing behaviour, age, sector and other risk indicators.
